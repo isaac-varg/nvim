@@ -7,7 +7,7 @@ vim.g.maplocalleader = "\\"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true 
 
 vim.opt.expandtab = true
 -- vim.opt.tabstop = 4
@@ -28,3 +28,6 @@ vim.opt.ignorecase = true
 
 -- allow true color support of modern terminal emulators
 vim.opt.termguicolors = false 
+
+-- removes the default `~` used to show blank areas
+vim.opt.fillchars = { eob = " " }
