@@ -1,3 +1,4 @@
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -7,7 +8,7 @@ vim.g.maplocalleader = "\\"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
-vim.opt.wrap = true 
+vim.opt.wrap = true
 
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
@@ -31,3 +32,6 @@ vim.opt.termguicolors = false
 
 -- removes the default `~` used to show blank areas
 vim.opt.fillchars = { eob = " " }
+
+-- for nvchad/ui setup 
+vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46_cache/"
