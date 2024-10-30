@@ -19,43 +19,24 @@ NV.ui = {
     },
 }
 
-NV.nvdash = {
-    load_on_startup = true,
-    header = {
-        "                                                   ",
-        "                                                   ",
-        "                                                   ",
-        "       ██████                        ██████       ",
-        "      ██████████      ██████      ██████████      ",
-        "      ███     ██████████████████████     ███      ",
-        "      ███        █████  ██  █████        ███      ",
-        "      ███           ██  ██  ███          ███      ",
-        "      ███               ██               ███      ",
-        "       ███              ██              ███       ",
-        "       ███     ██████        ██████     ███       ",
-        "   ████████    ██  ██        ██  ██    ████████   ",
-        "   ███████████          ███         ███████████   ",
-        "     ███    ██        ██████        ██    ███     ",
-        "     ████████         ██████         ████████     ",
-        "   ██████████     ██    ██    ██      █████████   ",
-        "      ███         ███ ██████ ███         ███      ",
-        "       ███         ██████ █████         ███       ",
-        "        ████                          ████        ",
-        "          █████                    █████          ",
-        "             ████████████████████████              ",
-        "                  ███████████████                  ",
-        "                                                   ",
-        "                                                   ",
-        "                                                   ",
-        "                                                   "
-    },
-    buttons = {
-        { txt = "  Find File", keys = "<leader> ff", cmd = "Telescope find_files" },
-        { txt = "  Recent Files", keys = "<leader> fo", cmd = "Telescope oldfiles" },
-        -- more... check nvconfig.lua file for full list of buttons
-    },
-
-}
+-- NV.nvdash = {
+--     load_on_startup = true,
+--     header = {
+--         "                                                   ",
+--         "                                                   ",
+--         "                                                   ",
+--        "                                                   ",
+--         "                                                   ",
+--         "                                                   ",
+--         "                                                   "
+--     },
+--     buttons = {
+--         { txt = "  Find File", keys = "<leader> ff", cmd = "Telescope find_files" },
+--         { txt = "  Recent Files", keys = "<leader> fo", cmd = "Telescope oldfiles" },
+--         -- more... check nvconfig.lua file for full list of buttons
+--     },
+-- 
+-- }
 
 
 

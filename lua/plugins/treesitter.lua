@@ -13,6 +13,7 @@ opts = {
     "markdown",
     "markdown_inline",
     "printf",
+    "prismals",
     "python",
     "query",
     "regex",

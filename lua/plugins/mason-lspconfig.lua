@@ -8,6 +8,7 @@ return {
                     "lua_ls",
                     "ts_ls",
                     "tailwindcss",
+                    "prismals"
         }
     }
 }
