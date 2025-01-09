@@ -21,18 +21,18 @@ return {
             })
 
             -- Add key mappings for navigating snippets
-            vim.keymap.set({ "i", "s" }, "<Tab>", function()
-                if luasnip.jumpable(1) then
-                    luasnip.jump(1)
-                end
-            end, { silent = true })
+            -- disabling this now until i see what others use for this because this breaks normal tabbing lol
+            --      vim.keymap.set({ "i", "s" }, "<Tab>", function()
+            --          if luasnip.jumpable(1) then
+            --              luasnip.jump(1)
+            --          end
+            --      end, { silent = true })
 
-            vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
-                if luasnip.jumpable(-1) then
-                    luasnip.jump(-1)
-                end
-            end, { silent = true })
+            --      vim.keymap.set({ "i", "s" }, "<S-Tab>", function()
+            --          if luasnip.jumpable(-1) then
+            --              luasnip.jump(-1)
+            --          end
+            --      end, { silent = true })
         end,
     }
 }
-
