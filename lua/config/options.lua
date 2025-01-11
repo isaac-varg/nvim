@@ -27,7 +27,7 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 
 -- allow true color support of modern terminal emulators
-vim.opt.termguicolors = true 
+vim.opt.termguicolors = true
 
 -- removes the default `~` used to show blank areas
 vim.opt.fillchars = { eob = " " }
