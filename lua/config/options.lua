@@ -1,3 +1,7 @@
+
+local closeOtherBuffers = require('functions.closeOtherBuffers')
+
+-- options 
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -34,3 +38,17 @@ vim.opt.fillchars = { eob = " " }
 
 -- for nvchad/ui setup
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46_cache/"
+
+-- to switch buffer tabs
+vim.api.nvim_set_keymap('n', '<Leader><Tab>', ':bnext<CR>', { noremap = true, silent = true })
+
+-- close current buffer
+vim.api.nvim_set_keymap('n', '<Leader>q', ':bdelete!<CR>', { noremap = true, silent = true })
+
+
+-- close all buffers except the current one
+vim.api.nvim_set_keymap('n', '<Leader>Q', '', {
+  noremap = true,
+  silent = true,
+  callback = closeOtherBuffers.CloseOtherBuffers,
+})
