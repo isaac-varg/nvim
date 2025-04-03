@@ -15,13 +15,23 @@ return {
         lspconfig.lua_ls.setup({
             capabilities = capabilities
         })
+        -- css
+        lspconfig.cssls.setup({
+            capabilities = capabilities,
+            settings = {
+                css = {
+                    validate = false
+                }
+            }
+        })
+
         -- typescript
         lspconfig.ts_ls.setup({
             capabilities = capabilities
         })
         -- tailwindcss
         lspconfig.tailwindcss.setup({
-            capabilities = capabilities
+            capabilities = capabilities,
         })
         -- prisma
         lspconfig.prismals.setup({
