@@ -1,0 +1,3 @@
+- After using this config for almost a year I am archiving it
+- Modifying Lazynvim is much easier now that I know a bit more of what i am doing
+- and come swith a lot of better defaults that what I have created here
